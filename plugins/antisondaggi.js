@@ -1,4 +1,4 @@
-//creazione di riad il padre santo
+//creazione di endy il padre santo
 function _0x331e() {
     const _0x453707 = [
         'error',
