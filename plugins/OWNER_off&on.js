@@ -19,7 +19,7 @@ const handler = async (m, { conn, args, command }) => {
             }
             
             const lines = content.split('\n');
-            const preservedLine = lines.find(line => line.includes('Plugin fatto da Gabs & 333 Staff'));
+            const preservedLine = lines.find(line => line.includes('Plugin fatto da Endy'));
             const restLines = lines.filter(line => !line.includes('Plugin fatto da Gabs & 333 Staff'));
             const newContent = `${preservedLine || ''}\n/*\n${restLines.join('\n')}\n*/`;
             
