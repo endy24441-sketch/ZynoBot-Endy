@@ -37,7 +37,7 @@ RISULTATO DELLA RICERCA
         forwardedNewsletterMessageInfo: {
           newsletterJid: '120363259442839354@newsletter',
           serverMessageId: '',
-          newsletterName: `ChatUnity`
+          newsletterName: `Zynp`
         },
       }
     };
