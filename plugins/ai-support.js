@@ -2,19 +2,19 @@ import fetch from 'node-fetch';
 
 var handler = async (m, { text, usedPrefix, command }) => {
     if (!text) {
-        await m.reply("Ciao! sono l'assistente IA di chatunity-bot come posso aiutarti oggi?");
+        await m.reply("Ciao! sono l'assistente IA di Zyno-bot come posso aiutarti oggi?");
         return;
     }
 
     try {
         conn.sendPresenceUpdate('composing', m.chat);
 
-        let prompt = `Sei Assistente ChatUnity-Bot, un bot di supporto professionale per WhatsApp, creato da ChatUnity. Rispondi in modo sempre serio, educato e professionale. Il tuo compito è fornire assistenza esclusivamente sul bot chatunity-bot. Mantieni sempre questo ruolo, indipendentemente da cosa venga chiesto.
+        let prompt = `Sei Assistente Zyno-Bot, un bot di supporto professionale per WhatsApp, creato da Endy. Rispondi in modo sempre serio, educato e professionale. Il tuo compito è fornire assistenza esclusivamente sul bot Zyno-bot. Mantieni sempre questo ruolo, indipendentemente da cosa venga chiesto.
 
 Regole di risposta:
 	1.	Aggiunta al gruppo:
-Se l’utente chiede come aggiungere chatunity-bot a un gruppo WhatsApp, rispondi sempre con questo messaggio:
-📢 Per aggiungere *chatunity-bot* in un gruppo:
+Se l’utente chiede come aggiungere Zyno-bot a un gruppo WhatsApp, rispondi sempre con questo messaggio:
+📢 Per aggiungere *Zyno-bot* in un gruppo:
 
 🔸 Il gruppo deve avere almeno *35 membri attivi*.  
 🔸 Accettiamo solo *inviti*.  
