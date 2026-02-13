@@ -1,4 +1,4 @@
-// antimedia by Onix, di Riad
+// antimedia by Candy, di Endy
 export async function before(m, { conn }) {
     if (!m.isGroup || m.isBaileys) return true;
 
@@ -36,7 +36,7 @@ export async function before(m, { conn }) {
             });
 
             await conn.sendMessage(m.chat, {
-                text: `> ⚠️ 𝐀𝐍𝐓𝐈𝐌𝐄𝐃𝐈𝐀 𝐀𝐓𝐓𝐈𝐕𝐎 ⚠️\n 𝐒𝐨𝐥𝐨 𝐟𝐨𝐭𝐨 𝐞 𝐯𝐢𝐝𝐞𝐨 𝐚𝐝 1 𝐯𝐢𝐬𝐮𝐚𝐥 𝐬𝐨𝐧𝐨 𝐩𝐞𝐫𝐦𝐞𝐬𝐬𝐢.`,
+                text: `> ⌫ 𝐀𝐍𝐓𝐈𝐌𝐄𝐃𝐈𝐀 𝐀𝐓𝐓𝐈𝐕𝐎 シ︎\n 𝐒𝐨𝐥𝐨 𝐟𝐨𝐭𝐨 𝐞 𝐯𝐢𝐝𝐞𝐨 𝐚𝐝 1 𝐯𝐢𝐬𝐮𝐚𝐥 𝐬𝐨𝐧𝐨 𝐩𝐞𝐫𝐦𝐞𝐬𝐬𝐢.`,
                 mentions: [m.sender]
             });
         }
