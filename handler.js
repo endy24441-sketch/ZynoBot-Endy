@@ -122,7 +122,7 @@ if (m.isGroup && (m.mtype === 'imageMessage' || m.mtype === 'stickerMessage')) {
       }
       
       await this.sendMessage(m.chat, {
-        text: `🚫 *MATERIALE PORNOGRAFICO RILEVATO*\n\n📊 ${(result.confidence * 100).toFixed(1)}%\n👤 @${m.sender.split('@')[0]}\n📎 ${getMediaEmoji(m.mtype)}\n\n${deleteSuccess ? '✅ ELIMINATO' : '❌ BOT NON ADMIN?\n\n> Developed by ChatUnity'}`,
+        text: `🚫 *MATERIALE PORNOGRAFICO RILEVATO,MA SEI COGLIONE CHE MANDI STE ROBE???*\n\n📊 ${(result.confidence * 100).toFixed(1)}%\n👤 @${m.sender.split('@')[0]}\n📎 ${getMediaEmoji(m.mtype)}\n\n${deleteSuccess ? '✅ ELIMINATO' : '❌ BOT NON ADMIN?\n\n> Developed by Zyno'}`,
         mentions: [m.sender]
       });
       
@@ -294,7 +294,7 @@ async function processMessage(m, chatUpdate, stats) {
       groupData.suspendedUntil = now + 45000
 
       await this.sendMessage(chatId, {
-        text: `『 ⚠ 』 Anti-spam comandi\n\nTroppi comandi in poco tempo!\nAttendi *45 secondi* prima di usare altri comandi.\n\n> sviluppato da sam aka vare`,
+        text: `『 ⚠ 』 Anti-spam comandi\n\nTroppi comandi in poco tempo!\nAttendi *45 secondi* prima di usare altri comandi.\n\n> sviluppato da Endy aka Candy#sabri#mia#mors#medalis`,
         mentions: [m.sender]
       })
       return
