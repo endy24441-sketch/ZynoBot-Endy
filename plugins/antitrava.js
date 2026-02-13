@@ -32,7 +32,17 @@ export async function before(m, { conn, isAdmin, isBotAdmin }) {
 
             setTimeout(async () => {
                 await conn.sendMessage(m.chat, {
-                    text: ` RILEVATO MESSAGGIO LUNGO (ANTI-TRAVA)\n\n•  L'utente @${m.sender.split("@")[0]}  ha inviato un messaggio troppo lungo e verrà rimosso.`,
+                    text: `
+╔══════════════════╗
+║ 🚨 SISTEMA ANTI-TRAVA
+╚══════════════════╝
+
+[!] Rilevato messaggio eccessivamente lungo.
+
+Utente: @${m.sender.split("@")[0]}
+
+✖ Azione: Eliminazione automatica.
+`
                     mentions: [m.sender]
                 });
             }, 0);
