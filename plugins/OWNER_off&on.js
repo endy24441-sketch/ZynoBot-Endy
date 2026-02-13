@@ -1,4 +1,4 @@
-//Plugins fatto da Gabs333 Velocizzato
+//Plugins fatto da Endy Velocizzato
 import fs from 'fs'
 import path from 'path'
 
