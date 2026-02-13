@@ -1,13 +1,13 @@
 //Plugins fatto da Endy Velocizzato
 const validateGroupContext = (message) => {
     if (!message.isGroup) {
-        throw new Error("Questo comando si usa solo nei gruppi.");
+        throw new Error("Questo comando si usa solo nei gruppi down.");
     }
 };
 
 const validateBotPermissions = (isBotAdmin) => {
     if (!isBotAdmin) {
-        throw new Error("Devo essere admin per rifiutare le richieste.");
+        throw new Error("Devo essere admin per rifiutare le richieste coglione.");
     }
 };
 
