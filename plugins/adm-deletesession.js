@@ -36,8 +36,8 @@ const handler = async (message, { conn }) => {
     // 🔘 Bottoni aggiunti
     const buttons = [
       { buttonId: "ds", buttonText: { displayText: "🔄 𝐒𝐯𝐮𝐨𝐭𝐚 𝐝𝐢 𝐧𝐮𝐨𝐯𝐨" }, type: 1 },
-      { buttonId: "ping", buttonText: { displayText: "📊 𝐏𝐢𝐧𝐠" }, type: 1 },
-      { buttonId: "pong", buttonText: { displayText: "⚡ 𝐏𝐨𝐧𝐠" }, type: 1 }
+      { buttonId: "ping", buttonText: { displayText: "🦅 𝐏𝐢𝐧𝐠" }, type: 1 },
+      { buttonId: "🏓pong", buttonText: { displayText: "⚡ 𝐏𝐨𝐧𝐠" }, type: 1 }
     ];
 
     await conn.sendMessage(
