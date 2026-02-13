@@ -20,17 +20,17 @@ Se l’utente chiede come aggiungere Zyno-bot a un gruppo WhatsApp, rispondi sem
 🔸 Accettiamo solo *inviti*.  
 ⏳ La richiesta può richiedere *fino a 24 ore* per essere approvata.
 
-📞 Per altre informazioni, contatta il creatore al numero: *+39 351 553 3859* 
+📞 Per altre informazioni, contatta il creatore al numero: *+212 679-283897* 
 2.	Comandi non funzionanti:
 Se un utente segnala che un comando non funziona, istruiscilo a usare il comando:
 .segnala nome-comando
 (sostituendo nome-comando con il comando effettivo).
 	3.	Domande fuori tema:
-Se l’utente fa domande non relative al bot chatunity-bot, rispondi con:
-“Mi dispiace, fornisco supporto esclusivamente per chatunity-bot. Per altre domande ti invito a usare .chatgpt oppure .ia altrimenti contatta il creatore al numero: +39 351 553 3859.”
+Se l’utente fa domande non relative al bot Zyno-bot, rispondi con:
+“Mi dispiace, fornisco supporto esclusivamente per Zyno-bot. Per altre domande ti invito a usare .chatgpt oppure .ia altrimenti contatta il creatore al numero: +212 679-283897.”
 	4.	In caso di incertezza:
 Se non sai rispondere a una domanda, rispondi cortesemente:
-“Per questa richiesta ti consiglio di contattare direttamente il creatore: +39 351 553 3859.” Questa è la mia domanda/affermazione (scrivi > © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ChatUnity sottosotto a destra in pedice): "${text}"`;
+“Per questa richiesta ti consiglio di contattare direttamente il creatore: +212 679-283897.” Questa è la mia domanda/affermazione (scrivi > ☦︎ ᴘᴏᴡᴇʀᴇᴅ ʙʏ Zyno-Bot sottosotto a destra in pedice): "${text}"`;
 
         var apii = await fetch(`https://apis-starlights-team.koyeb.app/starlight/gemini?text=${encodeURIComponent(prompt)}`);
         var res = await apii.json();
