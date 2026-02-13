@@ -2,13 +2,13 @@ import axios from "axios";
 
 var handler = async (m, { text, usedPrefix, command, conn }) => {
   if (!text) {
-    await m.reply("Per favore, scrivi una descrizione per generare l'immagine.");
+    await m.reply("dio porco, ti prego, scrivi una descrizione per generare l'immagine AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA mi manca mia.");
     return;
   }
 
   try {
     await conn.sendPresenceUpdate("composing", m.chat);
-    await m.reply("> CREO IMMAGINE ...🔥");
+    await m.reply("> CREO IMMAGINE IN CORSO...🔥");
 
     let apiUrl;
     switch (command) {
@@ -40,7 +40,7 @@ var handler = async (m, { text, usedPrefix, command, conn }) => {
 
     await conn.sendMessage(m.chat, {
       image: imageBuffer,
-      caption: `💸 *Immagine generata da chatunity IA developed by onix & origin* 🚀\n✨ Prompt: *${text}*`
+      caption: `💸 *Immagine generata da zyno IA developed by Candy & AI* 🚀\n✨ Prompt: *${text}*`
     });
   } catch (error) {
     console.error("FluxAI Error:", error);
