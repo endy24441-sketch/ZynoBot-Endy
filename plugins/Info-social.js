@@ -14,7 +14,7 @@ const handler = async (message, { conn, usedPrefix, command }) => {
                     + `📢 *TikTok:*\n`
                     + `https://www.tiktok.com/@endys8265?_r=1&_t=ZN-93tbcL1xXnS`
                     + `💬 *GitHub:*\n`
-                    + `https://github.com/chatunitycenter\n\n`
+                    + `https://github.com/endy24441-sketch/ZynoBot-Endy.git`
 
     await conn.sendMessage(
         message.chat,
