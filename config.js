@@ -5,22 +5,25 @@ import { fileURLToPath } from 'url';
 
 global.botnumber = '';
 global.confirmCode = '';
-global.nomebot = '𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲-𝐁𝐨𝐭';
-global.packname = '𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲-𝐁𝐨𝐭';
-global.author = '𝐌𝐝';
-global.vs = '8.8';
-global.collab = 'Demon Slayer';
+global.nomebot = 'Zyno';
+global.packname = 'ZynoBot';
+global.author = 'Endy';
+global.vs = '1.1';
+global.collab = 'Medalis e Mors';
 global.wm = global.nomebot;
 global.wait = 'ⓘ 𝐂𝐚𝐫𝐢𝐜𝐚𝐦𝐞𝐧𝐭𝐨 ...';
 
 
 global.owner = [
-  ['393773842461', '𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲', true],
-  ['xxxxxxxxxx'], //mettete il vostro numero al posto delle x e copiate sopra il formato dopo ovvero 'nome', true
-  ['xxxxxxxxxx'],
-  ['xxxxxxxxxx'],
-  ['xxxxxxxxxx'],
-  ['xxxxxxxxxx']
+  ['212679283897', 'endy=founder', true],
+  ['212644391140', 'mia=admin', true], 
+  ['212642043720', 'cristian=co-founder', true],
+  ['393661122722', 'lucifear=staff', true],
+  ['212775270361', 'zyno=bot', true],
+  ['13678280807', 'medalis=owner', true],
+  ['393882438360', 'pasquale=staff', true],
+  ['393513007155', 'chrystian=staff', true],
+  ['212786300182', 'gabry=staff', true], 
 ];
 global.mods = ['xxxxxxxxxx'];
 global.prems = ['xxxxxxxxxx', 'xxxxxxxxxx'];
@@ -49,7 +52,7 @@ global.APIs = {
   zenzapis: 'https://zenzapis.xyz',
   akuari: 'https://api.akuari.my.id',
   akuari2: 'https://apimu.my.id'
-  
+
 };
 
 global.APIKeys = {
