@@ -8,8 +8,8 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const handler = async (message, { conn }) => {
-    const newsText = `*RILASCIO V6.1*\n\n`
-                  + `📅 *Data:* 18/08 \n`
+    const newsText = `*RILASCIO V1.1*\n\n`
+                  + `📅 *Data:* 16/02 \n`
                   + `🆕 *Aggiornamenti principali:*\n`
                   + `• Nuovo comando social\n`
                   + `• Ottimizzato i log su console\n`
