@@ -1,4 +1,4 @@
-//Plugin by Gabs333 Velocizzato
+//Plugin by Endy Velocizzato
 
 const handler = async (m, { conn, isAdmin, isBotAdmin, command }) => {
     try {
