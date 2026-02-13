@@ -643,11 +643,11 @@ global.reloadHandler = async function (restatConn) {
 
 
   conn.welcome = '@user benvenuto/a in @subject';
-  conn.bye = '@user ha abbandonato il gruppo';
-  conn.spromote = '@user è stato promosso ad amministratore';
-  conn.sdemote = '@user non è più amministratore';
-  conn.sIcon = 'immagine gruppo modificata';
-  conn.sRevoke = 'link reimpostato, nuovo link: @revoke';
+  conn.bye = '@user il frocio ha abbandonato il gruppo perché è mongoloide 🥀';
+  conn.spromote = '@user è stato promosso ad amministratore, Grande fratm!!';
+  conn.sdemote = '@user non è più amministratore, eh, fai schifo da admin che ci posso fare';
+  conn.sIcon = 'immagine gruppo modificata, spero che sia meglio della precedente dio cane ';
+  conn.sRevoke = 'link reimpostato, per fortuna AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA PORCO DIO, nuovo link: @revoke';
 
 
   conn.handler = handler.handler.bind(global.conn);
