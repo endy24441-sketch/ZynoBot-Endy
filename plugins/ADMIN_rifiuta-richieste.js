@@ -1,4 +1,4 @@
-//Plugins fatto da Gabs333 Velocizzato
+//Plugins fatto da Endy Velocizzato
 const validateGroupContext = (message) => {
     if (!message.isGroup) {
         throw new Error("Questo comando si usa solo nei gruppi.");
@@ -13,7 +13,7 @@ const validateBotPermissions = (isBotAdmin) => {
 
 const validateUserPermissions = (isAdmin) => {
     if (!isAdmin) {
-        throw new Error("Solo gli admin del gruppo possono usare questo comando.");
+        throw new Error("Solo gli admin del gruppo possono usare questo comando, disabile del cazzo devi capire un po' di vita.");
     }
 };
 
