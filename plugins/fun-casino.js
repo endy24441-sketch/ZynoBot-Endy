@@ -43,7 +43,7 @@ vuoi puntare contro *Zyno-Bot*.
     // Applica il cooldown SOLO dopo che l'utente ha scelto una quantità valida
     if (cooldowns[m.sender] && Date.now() - cooldowns[m.sender] < tiempoEspera * 1000) {
         let tiempoRestante = segundosAHMS(Math.ceil((cooldowns[m.sender] + tiempoEspera * 1000 - Date.now()) / 1000));
-        conn.reply(m.chat, `🚩 Hai già avviato una scommessa di recente, aspetta *⏱ ${tiempoRestante}* per scommettere di nuovo.`, m, rcanal);
+        conn.reply(m.chat, `🚩 Hai già avviato una scommessa di recente mongoloide, aspetta *⏱ ${tiempoRestante}* per scommettere di nuovo.`, m, rcanal);
         return;
     }
 
@@ -63,7 +63,7 @@ vuoi puntare contro *Zyno-Bot*.
         if (Aku > Kamu) {
             conn.reply(
                 m.chat,
-                `🌵 Vediamo che numeri avete!\n\n➠ *chatunity-bot*: ${Aku}\n➠ *${username}*: ${Kamu}\n\n> ${username}, *HAI PERSO* ${formatNumber(count)} 💶 Unitycoins.`,
+                `🌵 Vediamo che numeri avete!\n\n➠ *zyno-bot*: ${Aku}\n➠ *${username}*: ${Kamu}\n\n> ${username}, *HAI PERSO, HAHHAHAHA SEI SCARSO* ${formatNumber(count)} 💶 Zynocoins.`,
                 m,
                 rcanal
             );
@@ -71,7 +71,7 @@ vuoi puntare contro *Zyno-Bot*.
             user.limit += count * 2;
             conn.reply(
                 m.chat,
-                `🌵 Vediamo che numeri avete!\n\n➠ *chatunity-bot*: ${Aku}\n➠ *${username}*: ${Kamu}\n\n> ${username}, *HAI VINTO* ${formatNumber(count * 2)} 💶 Unitycoins.`,
+                `🌵 Vediamo che numeri avete!\n\n➠ *zyno-bot*: ${Aku}\n➠ *${username}*: ${Kamu}\n\n> ${username}, *HAI VINTO, È STATA SOLO FORTINA NON VANTARTI MONGOLOIDE* ${formatNumber(count * 2)} 💶 Zynocoins.`,
                 m,
                 rcanal
             );
@@ -79,13 +79,13 @@ vuoi puntare contro *Zyno-Bot*.
             user.limit += count * 1;
             conn.reply(
                 m.chat,
-                `🌵 Vediamo che numeri avete!\n\n➠ *chatunity-bot*: ${Aku}\n➠ *${username}*: ${Kamu}\n\n> ${username}, ottieni ${formatNumber(count * 1)} 💶 Unitycoins.`,
+                `🌵 Vediamo che numeri avete coglioni!\n\n➠ *Zyno-bot*: ${Aku}\n➠ *${username}*: ${Kamu}\n\n> ${username}, ottieni ${formatNumber(count * 1)} 💶 Zynocoins.`,
                 m,
                 rcanal
             );
         }
     } else {
-        conn.reply(m.chat, `Non hai *${formatNumber(count)} 💶 Unitycoins* da scommettere!`, m, rcanal);
+        conn.reply(m.chat, `Non hai *${formatNumber(count)} 💶 ZynoCoins* da scommettere!`, m, rcanal);
     }
 };
 
