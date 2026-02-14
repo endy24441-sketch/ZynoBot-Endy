@@ -7,7 +7,7 @@ const config = {
     errore: '❌'
   },
   meta: {
-    sviluppatore: 'ChatUnity',
+    sviluppatore: 'Zyno',
     icona: 'https://i.imgur.com/example.png', // URL immagine valida
     canale: 'https://example.com'
   }
