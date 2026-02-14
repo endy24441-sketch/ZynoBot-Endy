@@ -335,17 +335,16 @@ handler.before = async (m, { conn }) => {
         }
 
         let congratsMessage = `
-╭━『 🎉 *RISPOSTA CORRETTA!* 』━╮
-┃
-┃ 🌍 *Nazione:* ${game.rispostaOriginale}
-┃ ⏱️ *Tempo impiegato:* ${timeTaken}s
-┃
-┃ 🎁 *Ricompense:*
-┃ • ${reward} 🪙 UnityCoins${timeBonus > 0 ? ` (+${timeBonus} bonus velocità)` : ''}
-┃ • ${exp} 🆙 EXP
-┃
-┃ 💰 *Saldo attuale:* ${global.db.data.users[m.sender].limit} UnityCoins
-╰━━━━━━━━━━━━━━━━╯
+╔══════════ 🎉 RISPOSTA CORRETTA ══════════╗
+║ 🌍 Nazione: ${game.rispostaOriginale}
+║ ⏱️ Tempo impiegato: ${timeTaken}s
+║
+║ 🎁 Ricompense:
+║ ▸ ${reward} 🪙 ZynoBot${timeBonus > 0 ? ` (+${timeBonus} bonus velocità)` : ''}
+║ ▸ ${exp} 🆙 EXP
+║
+║ 💰 Saldo attuale: ${global.db.data.users[m.sender].limit} Zynocoins 
+╚═════════════════════════════════════════╝
 
 > \`candy ✧ bot\``
 
