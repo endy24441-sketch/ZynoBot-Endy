@@ -1,4 +1,4 @@
-//edited by filo222
+//edited by Endy
 const friendRequests = {};
 
 let handler = async (m, { conn, participants, command, text, args, usedPrefix }) => {
