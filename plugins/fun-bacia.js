@@ -4,7 +4,7 @@ let handler = async (m, { conn, text, participants, command, usedPrefix }) => {
         if (m.quoted && m.quoted.sender) {
             text = '@' + m.quoted.sender.split('@')[0];
         } else {
-            return conn.reply(m.chat, ` Devi menzionare qualcuno o rispondere a un messaggio per baciarlo💋! Esempio: ${usedPrefix + command} @utente`, m);
+            return conn.reply(m.chat, ` Devi menzionare qualcuno o rispondere a un messaggio per baciarlo💋, sei veramente coglione! Esempio: ${usedPrefix + command} @utente`, m);
         }
     }
 
@@ -24,7 +24,7 @@ let handler = async (m, { conn, text, participants, command, usedPrefix }) => {
     let utenteBaciato = utentiMenzionati[0];
 
     // Messaggio del bacio
-    let messaggio = `💋 *${await conn.getName(m.sender)} ha dato un bacio a ${await conn.getName(utenteBaciato)}!* 😘`;
+    let messaggio = `💋 *${await conn.getName(m.sender)} il mongoloide ha dato un bacio a ${await conn.getName(utenteBaciato)}!* 😘`;
 
     await conn.sendMessage(m.chat, { text: messaggio, mentions: [utenteBaciato] }, { quoted: m });
 };
