@@ -5,12 +5,10 @@ let handler = async (m, { conn, command, text }) => {
         : "😅 Un risultato discreto, c'è sempre margine di miglioramento!";
 
     let message = `
-━━━━━━━━━━━━━━━━
-📏 CALCOLATORE DI APERTURA 📏
-━━━━━━━━━━━━━━━━
-🔍 ${text} ha un'apertura stimata di:  
-👉 ${width} cm!  
-━━━━━━━━━━━━━━━━
+╔════════════ 📏 CALCOLATORE ════════════╗
+║ Oggetto: ${text}
+║ Apertura stimata: ${width} cm
+╚═══════════════════════════════════════╝
 ${finalPhrase}
 `.trim();
 
