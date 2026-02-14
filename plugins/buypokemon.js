@@ -17,18 +17,18 @@ let handler = async (m, { conn, args }) => {
   const data = global.db.data.users[user];
 
   data.packInventory = data.packInventory || { base: 0, imperium: 0, premium: 0 };
-  data.limit = data.limit || 0; // UnityCoins
+  data.limit = data.limit || 0; // ZynoCoins
 
   const totalCost = prices[type] * quantity;
 
   if (data.limit < totalCost) {
-    return m.reply(`❌ Ti servono *${totalCost}* UnityCoins per acquistare ${quantity} pacchetti ${type.toUpperCase()}.\n💰 Saldo attuale: ${data.limit}`);
+    return m.reply(`❌ Ti servono *${totalCost}* ZynoCoins per acquistare ${quantity} pacchetti ${type.toUpperCase()}.\n💰 Saldo attuale: ${data.limit}`);
   }
 
   data.limit -= totalCost;
   data.packInventory[type] += quantity;
 
-  return m.reply(`✅ Hai comprato *${quantity}* pacchetti ${type.toUpperCase()}!\n📦 Totale ora: ${data.packInventory[type]}\n💸 UnityCoins rimanenti: ${data.limit}`);
+  return m.reply(`✅ Hai comprato *${quantity}* pacchetti ${type.toUpperCase()}!\n📦 Totale ora: ${data.packInventory[type]}\n💸 ZynoCoins rimanenti: ${data.limit}`);
 };
 
 handler.help = ['buypokemon <tipo> <quantità>'];
