@@ -10,12 +10,12 @@ let handler = async (m, { conn, command, text }) => {
 
 
     let message = `
-『💬』 ══ •⊰✰⊱• ══ 『💬』
+『💬』 ══ ⚜ ══ 『💬』
 
 MOMENTO DEL DRUG TEST! 🌿 
 ━━━━━━━━━━━━━━
  ${text ? text : 'Tu'} ha un tasso alcolemico del ${width}%! 🌿
-『💬』 ══ •⊰✰⊱• ══ 『💬』
+『💬』 ── ⋆⋅☆⋅⋆ ── 『💬』
 
 ${finalPhrase}
 `.trim();
@@ -27,7 +27,7 @@ ${finalPhrase}
             forwardedNewsletterMessageInfo: {
                 newsletterJid: '120363259442839354@newsletter',
                 serverMessageId: '',
-                newsletterName: `ChatUnity` 
+                newsletterName: `Zyno` 
             },
         }
     };
