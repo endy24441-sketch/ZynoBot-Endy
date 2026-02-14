@@ -85,18 +85,18 @@ handler.before = async (m, { conn }) => {
     const timeTaken = Math.floor((Date.now() - game.startTime) / 1000);
     const timeBonus = 0;
     const congratsMessage = `
-╭━『 🎉 RISPOSTA CORRETTA! 』━╮
-┃
-┃ 🚗 Marchio: ${game.risposta}
-┃ ⏱ Tempo impiegato: ${timeTaken}s
-┃
-┃ 🎁 Ricompense:
-┃ • ${reward} 💰 euro${timeBonus > 0 ? ` (+${timeBonus} bonus velocità)` : ''}
-┃ • ${exp} 🆙 EXP
-┃
-╰━━━━━━━━━━━━━━━━╯
+╔══════ ✦ VITTORIA ✦ ══════╗
 
-> \\by chatunity\\`;
+🚗 Marchio corretto: ${game.risposta}
+⏱ Tempo registrato: ${timeTaken}s
+
+✦ Ricompense ottenute ✦
+▸ ${reward} 💰 euro${timeBonus > 0 ? ` (+${timeBonus} bonus velocità)` : ''}
+▸ ${exp} 🆙 EXP
+
+╚══════════════════════════╝
+
+> \\by zyno\\`;
 
     await conn.reply(m.chat, congratsMessage, m);
     delete global.logoGame[m.chat];
