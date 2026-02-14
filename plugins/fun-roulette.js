@@ -17,7 +17,7 @@ let handler = async (m, { conn, text, command, usedPrefix }) => {
             forwardedNewsletterMessageInfo: {
                 newsletterJid: '120363259442839354@newsletter',
                 serverMessageId: '',
-                newsletterName: 'ChatUnity'
+                newsletterName: 'Zyno'
             }
         }
     }, { quoted: m });
@@ -28,14 +28,14 @@ let handler = async (m, { conn, text, command, usedPrefix }) => {
 
   if (!text) {
     await conn.sendMessage(m.chat, { 
-        text: `🚩 Devi inserire una quantità di *💶 Unitycoins* e scommettere su un colore, per esempio: *${usedPrefix + command} 20 black o red*`,
+        text: `🚩 Devi inserire una quantità di *💶 ZynoCoins* e scommettere su un colore, per esempio: *${usedPrefix + command} 20 black o red*`,
         contextInfo: {
             forwardingScore: 99,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
                 newsletterJid: '120363259442839354@newsletter',
                 serverMessageId: '',
-                newsletterName: 'ChatUnity'
+                newsletterName: 'Zyno'
             }
         }
     }, { quoted: m });
@@ -45,7 +45,7 @@ let handler = async (m, { conn, text, command, usedPrefix }) => {
   let args = text.trim().split(" ");
   if (args.length !== 2) {
     await conn.sendMessage(m.chat, { 
-        text: `🚩 Formato errato. Devi inserire una quantità di *💶 Unitycoins* e scommettere su un colore, per esempio: *${usedPrefix + command} 20 black*`,
+        text: `🚩 Formato errato. Devi inserire una quantità di *💶 Zynocoins* e scommettere su un colore, per esempio: *${usedPrefix + command} 20 black*`,
         contextInfo: {
             forwardingScore: 99,
             isForwarded: true,
@@ -71,7 +71,7 @@ let handler = async (m, { conn, text, command, usedPrefix }) => {
             forwardedNewsletterMessageInfo: {
                 newsletterJid: '120363259442839354@newsletter',
                 serverMessageId: '',
-                newsletterName: 'ChatUnity'
+                newsletterName: 'Zyno'
             }
         }
     }, { quoted: m });
@@ -80,14 +80,14 @@ let handler = async (m, { conn, text, command, usedPrefix }) => {
 
   if (limit > 50) {
     await conn.sendMessage(m.chat, { 
-        text: "🚩 La quantità massima di scommessa è di 50 *💶 Unitycoins*.",
+        text: "🚩 La quantità massima di scommessa è di 50 *💶Zynocoins*.",
         contextInfo: {
             forwardingScore: 99,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
                 newsletterJid: '120363259442839354@newsletter',
                 serverMessageId: '',
-                newsletterName: 'ChatUnity'
+                newsletterName: 'Zyno'
             }
         }
     }, { quoted: m });
@@ -103,7 +103,7 @@ let handler = async (m, { conn, text, command, usedPrefix }) => {
             forwardedNewsletterMessageInfo: {
                 newsletterJid: '120363259442839354@newsletter',
                 serverMessageId: '',
-                newsletterName: 'ChatUnity'
+                newsletterName: 'Zyno'
             }
         }
     }, { quoted: m });
@@ -112,14 +112,14 @@ let handler = async (m, { conn, text, command, usedPrefix }) => {
 
   if (limit > users.limit) {
     await conn.sendMessage(m.chat, { 
-        text: "🚩 Non hai abbastanza *💶 Unitycoins* per effettuare questa scommessa.",
+        text: "🚩 Non hai abbastanza *💶 ZynoCoins* per effettuare questa scommessa.",
         contextInfo: {
             forwardingScore: 99,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
                 newsletterJid: '120363259442839354@newsletter',
                 serverMessageId: '',
-                newsletterName: 'ChatUnity'
+                newsletterName: 'Zyno'
             }
         }
     }, { quoted: m });
@@ -127,14 +127,14 @@ let handler = async (m, { conn, text, command, usedPrefix }) => {
   }
 
   await conn.sendMessage(m.chat, { 
-      text: `🚩 Hai scommesso ${limit} *💶 Unitycoins* sul colore ${color}. Aspetta *⏱ 10 secondi* per conoscere il risultato.`,
+      text: `🚩 Hai scommesso ${limit} *💶 ZynoCoins* sul colore ${color}. Aspetta *⏱ 10 secondi* per conoscere il risultato.`,
       contextInfo: {
           forwardingScore: 99,
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
               newsletterJid: '120363259442839354@newsletter',
               serverMessageId: '',
-              newsletterName: 'ChatUnity'
+              newsletterName: 'Zyno'
           }
       }
   }, { quoted: m });
@@ -152,28 +152,28 @@ let handler = async (m, { conn, text, command, usedPrefix }) => {
     if (win) {
       users.limit += limit;
       conn.sendMessage(m.chat, { 
-          text: `🚩 Hai vinto! Hai ottenuto ${limit} *💶 Unitycoins*. Totale: ${users.limit} *💶 Unitycoins*.`,
+          text: `🚩 Hai vinto! Hai ottenuto ${limit} *💶 Zynocoins*. Totale: ${users.limit} *💶 Zynocoins*.`,
           contextInfo: {
               forwardingScore: 99,
               isForwarded: true,
               forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363259442839354@newsletter',
                   serverMessageId: '',
-                  newsletterName: 'ChatUnity'
+                  newsletterName: 'Zyno'
               }
           }
       }, { quoted: m });
     } else {
       users.limit -= limit;
       conn.sendMessage(m.chat, { 
-          text: `🚩 Hai perso. Sono state sottratte ${limit} *💶 Unitycoins*. Totale: ${users.limit} *💶 Unitycoins*.`,
+          text: `🚩 Hai perso. Sono state sottratte ${limit} *💶 Zynocoins*. Totale: ${users.limit} *💶 Zynocoins*.`,
           contextInfo: {
               forwardingScore: 99,
               isForwarded: true,
               forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363259442839354@newsletter',
                   serverMessageId: '',
-                  newsletterName: 'ChatUnity'
+                  newsletterName: 'Zyno'
               }
           }
       }, { quoted: m });
