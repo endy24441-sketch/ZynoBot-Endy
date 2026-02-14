@@ -11,7 +11,7 @@ let handler = async (m, { conn, command, text }) => {
 
     // Creazione del messaggio
     let message = `
-『💬』 ══ •⊰✰⊱• ══ 『💬』
+『💬』 ══ ⚜ ══ 『💬』
 
 MOMENTO DEL TEST DELL'ALCOL! 🍷 
 ━━━━━━━━━━━━━━
