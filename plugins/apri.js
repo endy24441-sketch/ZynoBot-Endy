@@ -41,7 +41,7 @@ async function getCard(rarity) {
 const delay = ms => new Promise(r => setTimeout(r, ms));
 
 async function darknessAnim(conn, m, pokemon, user) {
-  const frames = ['🌑...', '🌑🌑...', '🌑🌑🌑 *???*', '🌑🌑🌑 *Una presenza oscura si manifesta...*', `✨🌑 *${pokemon.name.toUpperCase()}* appare dalle tenebre!`];
+  const frames = ['🌑...', '🌑🌑...', '🌑🌑🌑 *???*', '🌑🌑🌑 *Una presenza oscura si manifesta AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA...*', `✨🌑 *${pokemon.name.toUpperCase()}* appare dalle tenebre, viva il duce!`];
   for (let frame of frames) {
     await conn.sendMessage(m.chat, { text: frame, mentions: [user] }, { quoted: m });
     await delay(800);
@@ -71,7 +71,7 @@ let handler = async (m, { conn, args }) => {
 
   data.packInventory[packType]--;
 
-  await conn.sendMessage(m.chat, { text: '🎁 Aprendo il pacchetto...', mentions: [user] }, { quoted: m });
+  await conn.sendMessage(m.chat, { text: '🎁 Aprendo il pacchetto del duce!!...', mentions: [user] }, { quoted: m });
   await delay(1200);
   await conn.sendMessage(m.chat, { text: '✨ Rivelando le carte...', mentions: [user] }, { quoted: m });
   await delay(1200);
@@ -110,12 +110,12 @@ let handler = async (m, { conn, args }) => {
 
   cards.forEach(card => data.pokemons.push(card));
 
-  if (!cards.length) return m.reply(`😢 Nessuna carta trovata.`);
+  if (!cards.length) return m.reply(`👺 Nessuna carta trovata dio cane.`);
 
   const rarityRank = { 'Comune': 1, 'Non Comune': 2, 'Raro': 3, 'Leggendario': 4, 'Misterioso': 5 };
   const best = cards.sort((a, b) => (rarityRank[b.rarity] || 0) - (rarityRank[a.rarity] || 0))[0];
 
-  const msg = `🎉 Hai aperto un pacchetto *${packType.toUpperCase()}*:\n\n✨ *${best.name}* (${best.rarity})${best.shiny ? ' ✨ Shiny' : ''}\n🔰 Tipo: ${best.type} | Lvl: ${best.level}\n\n📦 Pacchetti rimasti: *${data.packInventory[packType]}* ${packType}`;
+  const msg = `🎉 Hai aperto un pacchetto mongoloide*${packType.toUpperCase()}*:\n\n✨ *${best.name}* (${best.rarity})${best.shiny ? ' ✨ Shiny' : ''}\n🔰 Tipo: ${best.type} | Lvl: ${best.level}\n\n📦 Pacchetti rimasti: *${data.packInventory[packType]}* ${packType}`;
 
   await conn.sendMessage(m.chat, {
     ...(best.image ? { image: { url: best.image }, caption: msg } : { text: msg }),
