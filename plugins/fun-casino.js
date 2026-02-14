@@ -21,7 +21,17 @@ let handler = async (m, { conn, args, usedPrefix, command, DevMode }) => {
         const maxUC = Math.max(10, Math.floor(user.limit / 2));
         const tagli = [10, 50, 100, 250, 500, 1000].filter(n => n <= maxUC);
         return conn.sendMessage(m.chat, {
-            text: `🚩 Inserisci la quantità di 💶 Unitycoins che vuoi scommettere contro *chatunity-bot*.\n\nEsempio:\n> *${usedPrefix + command}* 100`,
+             text: `
+╔══════ 💰 CANDY BET ══════╗
+
+Scegli quanti 💶 ZynoCoins
+vuoi puntare contro *Zyno-Bot*.
+
+✦ Esempio di utilizzo:
+> ${usedPrefix + command} 100
+
+╚══════════════════════════╝
+`,
             buttons: tagli.map(n => ({
                 buttonId: `${usedPrefix + command} ${n}`,
                 buttonText: { displayText: `${n} 💶` },
