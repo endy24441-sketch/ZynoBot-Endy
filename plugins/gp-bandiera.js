@@ -235,7 +235,7 @@ let handler = async (m, { conn, args, participants, isAdmin, isBotAdmin }) => {
   try {
     let msg = await conn.sendMessage(m.chat, {
       image: { url: scelta.url },
-      caption: `${frase}\n\n ㌌ *Rispondi con il nome della nazione!*\n⏱️ *Tempo disponibile:* 30 secondi\n\n> \`vare ✧ bot\``,
+      caption: `${frase}\n\n ㌌ *Rispondi con il nome della nazione!*\n⏱️ *Tempo disponibile:* 30 secondi\n\n> \`candy ✧ bot\``,
       quoted: m
     })
 
@@ -249,7 +249,7 @@ let handler = async (m, { conn, args, participants, isAdmin, isBotAdmin }) => {
       startTime: Date.now(),
       timeout: setTimeout(() => {
         if (global.bandieraGame?.[m.chat]) {
-          conn.reply(m.chat, `⏳ *Tempo scaduto!*\n\n🌍 *La risposta era:* *${scelta.nome}*\n\n> \`vare ✧ bot\``, msg)
+          conn.reply(m.chat, `⏳ *Tempo scaduto!*\n\n🌍 *La risposta era:* *${scelta.nome}*\n\n> \`candy ✧ bot\``, msg)
           delete global.bandieraGame[m.chat]
         }
       }, 30000)
@@ -347,7 +347,7 @@ handler.before = async (m, { conn }) => {
 ┃ 💰 *Saldo attuale:* ${global.db.data.users[m.sender].limit} UnityCoins
 ╰━━━━━━━━━━━━━━━━╯
 
-> \`vare ✧ bot\``
+> \`candy ✧ bot\``
 
         await conn.reply(chat, congratsMessage, m)
         delete global.bandieraGame[chat]
