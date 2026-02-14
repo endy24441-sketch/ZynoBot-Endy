@@ -33,15 +33,15 @@ const features = [
 ];
 
 const MENU_HEADER = `
-⋆ ︵︵ ★ 🔧 𝑴𝑬𝑵𝑼 𝑺𝑰𝑪𝑼𝑹𝑬𝑿𝒁𝑨 🔧 ★ ︵︵ ⋆
+︵︵︵ ★ 🔧 𝑴𝑬𝑵𝑼 𝑺𝑰𝑪𝑼𝑹𝑬𝒁𝒁𝑨 🔧 ★ ︵︵︵
 
-╭﹕₊˚ ★ ⁺˳ꕤ₊⁺・꒱
- ━━✫ ℹ 𝐂𝐎𝐌𝐄 𝐒𝐈 𝐔𝐒𝐀
- ━━✫ 🟢 attiva [funzione]
- ━━✫ 🔴 disabilita [funzione]
-╰﹕₊˚ ★ ⁺˳ꕤ₊⁺・꒱
+╭﹕₊˚ ✦ ⁺˳ꕤ₊⁺・꒱
+ ━━✧ ℹ 𝐈𝐒𝐓𝐑𝐔𝐙𝐈𝐎𝐍𝐈
+ ━━✧ 🟢 attiva [funzione]
+ ━━✧ 🔴 disabilita [funzione]
+╰﹕₊˚ ✦ ⁺˳ꕤ₊⁺・꒱
 
-꒷꒦ ✦ ୧・︶ : ︶ ꒷꒦ ‧₊ ୧
+꒷꒦ ⊹ ୨・︶︶・୧ ⊹ ꒷꒦
 `;
 
 const MENU_FOOTER = `
