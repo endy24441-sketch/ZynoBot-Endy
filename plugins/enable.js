@@ -57,12 +57,12 @@ const MENU_FOOTER = `
 `;
 
 const STATUS_HEADER = `
-╭★────★────★
-|ㅤㅤㅤ꒰¡𝐒𝐓𝐀𝐓𝐎 𝐅𝐔𝐍𝐙𝐈𝐎𝐍𝐄!꒱
+╔═══════ ✧ ═══════╗
+║   ⚙️ 𝐒𝐓𝐀𝐓𝐎 𝐅𝐔𝐍𝐙𝐈𝐎𝐍𝐄
 `;
 
 const STATUS_FOOTER = `
-╰★────★────★
+╚═══════ ✧ ═══════╝
 `;
 
 const BUTTON_TITLE = '📋 Lista Comandi';
