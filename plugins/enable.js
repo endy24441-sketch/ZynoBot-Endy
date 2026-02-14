@@ -70,7 +70,7 @@ const BUTTON_SECTION_TITLE = '🔧 Funzioni';
 const BUTTON_TEXT = '⚙ Impostazioni';
 const ONLY_OWNER_MSG = '❌ Solo il proprietario può attivare/disattivare questa funzione.';
 const ONLY_PRIVATE_CHATBOT_MSG = '❌ Puoi attivare/disattivare la funzione *ChatbotPrivato* solo in chat privata.';
-const ONLY_CHATUNITY_BASE_MSG = 'Questo comando è disponibile solo con la base di ChatUnity.';
+const ONLY_ZYNP_BASE_MSG = 'Questo comando è disponibile solo con la base di Zyno.';
 
 const PLACEHOLDER_THUMB = null;
 const PLACEHOLDER_VCARD = 'BEGIN:VCARD...';
