@@ -9,7 +9,7 @@ let handler = async (m, { conn }) => {
             forwardedNewsletterMessageInfo: {
                 newsletterJid: '120363259442839354@newsletter',
                 serverMessageId: '',
-                newsletterName: 'ChatUnity'
+                newsletterName: 'Zyno'
             }
         }
     }, { quoted: m });
