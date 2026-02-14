@@ -1,6 +1,8 @@
 let handler = async (m, { conn }) => {
     await conn.sendMessage(m.chat, { 
-        text: `*┌────「 ‼𝐎𝐁𝐁𝐋𝐈𝐆𝐎‼ 」─*\n*“${pickRandom(global.bucin)}”*\n*└────「 © ChatUnity 」─*`,
+        text: `╔════════「 ‼𝐎𝐁𝐁𝐋𝐈𝐆𝐎‼ 」════════╗
+*“${pickRandom(global.bucin)}”*
+╚════════「 ☦︎ 𝐙𝐲𝐧𝐨 」════════╝`,
         contextInfo: {
             forwardingScore: 99,
             isForwarded: true,
