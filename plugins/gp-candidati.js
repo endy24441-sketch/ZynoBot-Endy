@@ -46,7 +46,7 @@ export default handler;
 
 function generateMenuText(prefix, botName, userCount) {
     return `
-🚀 𝐕𝐮𝐨𝐢 𝐞𝐧𝐭𝐫𝐚𝐫𝐞 𝐚 𝐟𝐚𝐫 𝐩𝐚𝐫𝐭𝐞 𝐝𝐞𝐥𝐥𝐨 𝐬𝐭𝐚𝐟𝐟 𝐝𝐢 𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲, fare esperienza e essere riconosciuto come staffer?🚀
+🚀 𝐕𝐮𝐨𝐢 𝐞𝐧𝐭𝐫𝐚𝐫𝐞 𝐚 𝐟𝐚𝐫 𝐩𝐚𝐫𝐭𝐞 𝐝𝐞𝐥𝐥𝐨 𝐬𝐭𝐚𝐟𝐟 𝐝𝐢 𝐙𝐲𝐧𝐨, fare esperienza e essere riconosciuto come staffer?🚀
 
 Questo è il tuo momento! 𝐂𝐨𝐦𝐩𝐢𝐥𝐚 𝐢𝐥 𝐦𝐨𝐝𝐮𝐥𝐨 𝐪𝐮𝐢 𝐬𝐨𝐭𝐭𝐨 (𝐫𝐢𝐦𝐚𝐫𝐫𝐚̀ 𝐚𝐧𝐨𝐧𝐢𝐦𝐨) per candidarti e mostrare le tue competenze.
 
@@ -55,7 +55,7 @@ Questo è il tuo momento! 𝐂𝐨𝐦𝐩𝐢𝐥𝐚 𝐢𝐥 𝐦𝐨𝐝𝐮
 •	𝐑𝐢𝐜𝐨𝐧𝐨𝐬𝐜𝐞𝐧𝐳𝐚 𝐧𝐞𝐥 𝐛𝐨𝐭 𝐜𝐨𝐦𝐞 𝐜𝐨𝐥𝐥𝐚𝐛𝐨𝐫𝐚𝐭𝐨𝐫𝐞
 •	𝐅𝐚𝐫𝐞 𝐞𝐬𝐩𝐞𝐫𝐢𝐞𝐧𝐳𝐚 diretta nel mondo dei bot e della gestione comunitaria
 •	𝐀𝐜𝐜𝐞𝐬𝐬𝐨 𝐞𝐬𝐜𝐥𝐮𝐬𝐢𝐯𝐨 ai Bot Beta
-•	𝐂𝐨𝐥𝐥𝐚𝐛𝐨𝐫𝐚𝐳𝐢𝐨𝐧𝐞 𝐝𝐢𝐫𝐞𝐭𝐭𝐚 con il team di ChatUnity
+•	𝐂𝐨𝐥𝐥𝐚𝐛𝐨𝐫𝐚𝐳𝐢𝐨𝐧𝐞 𝐝𝐢𝐫𝐞𝐭𝐭𝐚 con il team di 𝐙𝐲𝐧𝐨
 
 Non perdere questa occasione, 𝐜𝐚𝐧𝐝𝐢𝐝𝐚𝐭𝐢 𝐬𝐮𝐛𝐢𝐭𝐨  e dimostra di avere quello che serve!
 
