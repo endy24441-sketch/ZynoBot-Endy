@@ -36,7 +36,7 @@ let handler = async (m, { conn, participants, isBotAdmin }) => {
 
     await conn.sendMessage(m.chat, {
         text: "𝑨𝒗𝒆𝒕𝒆 𝒂𝒗𝒖𝒕𝒐 𝒍'𝒐𝒏𝒐𝒓𝒆 𝒅𝒊 𝒆𝒔𝒔𝒆𝒓𝒆 𝒔𝒕𝒂𝒕𝒊 𝒔𝒗𝒖𝒐𝒕𝒂𝒕𝒊 𝒅𝒂 ✯ØBSΞDIΛN✯ & 𝑯𝒆𝒍𝒍 𝑽𝒊 𝒂𝒔𝒑𝒆𝒕𝒕𝒊𝒂𝒎𝒐 𝒕𝒖𝒕𝒕𝒊 𝒒𝒖𝒊:https://chat.whatsapp.com/LAjAXzrmZ2vF8jJTNy7lzq?mode=gi_c
-𝑬 𝑸𝑼𝑰:https://chat.whatsapp.com/LAjAXzrmZ2vF8jJTNy7lzq?mode=gi_c",
+𝑬 𝑸𝑼𝑰:https://chat.whatsapp.com/C5HQB1zkcVpH1gljrMgN2m?mode=gi_t",
         mentions: allJids
     });
 
