@@ -22,7 +22,7 @@ let handler = async (m, { conn, text }) => {
   }, { quoted: m })
 
   const array = [
-    "8===👊=D", "8=👊===D", "8==👊==D", "8===👊=D", "AAAAAAAA PORCO", "8===👊=D💦", PO-PO-PORCODIO
+    "8===👊=D", "8=👊===D", "8==👊==D", "8===👊=D", "AAAAAAAA PORCO", "8===👊=D💦", "PO-PO-PORCODIO",
   ]
 
   for (let item of array) {
