@@ -25,7 +25,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
             forwardedNewsletterMessageInfo: {
                 newsletterJid: '120363259442839354@newsletter',
                 serverMessageId: '',
-                newsletterName: 'ChatUnity'
+                newsletterName: 'Zyno'
             }
         }
     }, { quoted: m });
@@ -34,17 +34,17 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     let puntiOttenuti = 0
 
     if (text === botChoice) {
-        risultato = `[ ✿ ]︎ Pareggio!! Ricevi *100 💶 Unitycoins* come ricompensa`
+        risultato = `[ ✿ ]︎ Pareggio!! Ricevi *100 💶 Zynocoins* come ricompensa`
         puntiOttenuti = 100
     } else if (
         (text === 'pietra' && botChoice === 'forbici') ||
         (text === 'forbici' && botChoice === 'carta') ||
         (text === 'carta' && botChoice === 'pietra')
     ) {
-        risultato = `[ ✰ ]︎ HAI VINTO!! Hai guadagnato *300 💶 Unitycoins*`
+        risultato = `[ ✰ ]︎ HAI VINTO!! Hai guadagnato *300 💶Zynocoins*`
         puntiOttenuti = punti
     } else {
-        risultato = `[ ✿︎ ] HAI PERSO!! Hai perso *300 💶 Unitycoins*`
+        risultato = `[ ✿︎ ] HAI PERSO!! Hai perso *300 💶 Zynocoins*`
         puntiOttenuti = -punti
     }
 
