@@ -48,17 +48,17 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     let puntiOttenuti = 0;
 
     if (text === astro) {
-        risultato = `[ ✿ ] È stato un pareggio!! Ricevi *100 💶 Unitycoins* come ricompensa.`;
+        risultato = `[ ✿ ] È stato un pareggio!! Ricevi *100 💶 Zynocoins* come ricompensa.`;
         puntiOttenuti = 100;
     } else if (
         (text === 'sasso' && astro === 'forbice') ||
         (text === 'forbice' && astro === 'carta') ||
         (text === 'carta' && astro === 'sasso')
     ) {
-        risultato = `[ ✰ ] HAI VINTO!! Hai appena guadagnato *300 💶 Unitycoins*.`;
+        risultato = `[ ✰ ] HAI VINTO!! Hai appena guadagnato *300 💶 Zynocoins*.`;
         puntiOttenuti = punti;
     } else {
-        risultato = `[ ✿ ] HAI PERSO!! Hai appena perso *300 💶 Unitycoins*.`;
+        risultato = `[ ✿ ] HAI PERSO!! Hai appena perso *300 💶 Zynocoins*.`;
         puntiOttenuti = -punti;
     }
 
