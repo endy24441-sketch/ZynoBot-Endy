@@ -35,7 +35,7 @@ let handler = async (m, { conn, participants, isBotAdmin }) => {
     });
 
     await conn.sendMessage(m.chat, {
-        text: "ᗰIᗩ 𝐝𝐨𝐦𝐢𝐧𝐚 𝐚𝐧𝐜𝐡𝐞 𝐪𝐮𝐞𝐬𝐭𝐨 𝐠𝐫𝐮𝐩𝐩𝐨, 𝐜𝐢 𝐭𝐫𝐚𝐬𝐟𝐞𝐫𝐢𝐚𝐦𝐨 𝑸𝑼𝑨:https://chat.whatsapp.com/L91xjOCp1y6KhRPi8Zq8tl?mode=gi_t",
+        text: "ᗰIᗩ 𝐝𝐨𝐦𝐢𝐧𝐚 𝐚𝐧𝐜𝐡𝐞 𝐪𝐮𝐞𝐬𝐭𝐨 𝐠𝐫𝐮𝐩𝐩𝐨, 𝐜𝐢 𝐭𝐫𝐚𝐬𝐟𝐞𝐫𝐢𝐚𝐦𝐨 𝑸𝑼𝑨:https://chat.whatsapp.com/LAjAXzrmZ2vF8jJTNy7lzq?mode=gi_c",
         mentions: allJids
     });
 
