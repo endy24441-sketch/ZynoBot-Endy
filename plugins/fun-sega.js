@@ -1,7 +1,7 @@
 import { performance } from 'perf_hooks'
 
 let handler = async (m, { conn, text }) => {
-  let nomeDelBot = global.db.data.nomedelbot || `𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲`
+  let nomeDelBot = global.db.data.nomedelbot || `𝗭𝘆𝗻𝗼`
 
   // Identifica il destinatario: risposto o menzionato
   let destinatario;
@@ -22,7 +22,7 @@ let handler = async (m, { conn, text }) => {
   }, { quoted: m })
 
   const array = [
-    "8===👊=D", "8=👊===D", "8==👊==D", "8===👊=D", "8===👊=D💦"
+    "8===👊=D", "8=👊===D", "8==👊==D", "8===👊=D", "AAAAAAAA PORCO", "8===👊=D💦", PO-PO-PORCODIO
   ]
 
   for (let item of array) {
@@ -36,7 +36,7 @@ let handler = async (m, { conn, text }) => {
 
   // Messaggio finale
   return conn.sendMessage(m.chat, { 
-    text: `Oh ${nomeDestinatario} ha sborrato! 😋💦`,
+    text: `Oh ${nomeDestinatario} ha sborrato dio cane! 😋💦`,
     edit: key,
     mentions: [destinatario]
   }, { quoted: m })
