@@ -3,7 +3,7 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
     if (m.quoted && m.quoted.sender) {
         text = '@' + m.quoted.sender.split('@')[0];
     } else {
-        return conn.reply(m.chat, `⚠️ Devi menzionare qualcuno o rispondere a un messaggio! Esempio: ${usedPrefix + command} @utente`, m);
+        return conn.reply(m.chat, `⚠️ Devi menzionare qualcuno o rispondere a un messaggio bastardo! Esempio: ${usedPrefix + command} @utente`, m);
     }
 }
 
