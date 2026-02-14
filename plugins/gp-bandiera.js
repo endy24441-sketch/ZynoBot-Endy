@@ -1,4 +1,4 @@
-//comando creato da sam aka vare github.com/realvare
+//comando creato da Endy aka Candy github.com/realCandg
 let handler = async (m, { conn, args, participants, isAdmin, isBotAdmin }) => {
   if (m.text?.toLowerCase() === '.skipbandiera') {
     if (!m.isGroup) return m.reply('⚠️ Questo comando funziona solo nei gruppi!')
