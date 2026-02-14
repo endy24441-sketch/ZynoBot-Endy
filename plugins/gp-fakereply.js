@@ -1,4 +1,4 @@
-// Codice elaborato da: https://github.com/ChatUnity
+// Codice elaborato da: https://github.com/Zyno
 
 import fetch from 'node-fetch';
 import fs from 'fs';
