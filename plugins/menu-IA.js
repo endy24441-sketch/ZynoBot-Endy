@@ -40,7 +40,7 @@ function generateMenuText(prefix, botName, userId, groupId) {
   const vs = global.vs || '8.0'
   const menuTitle = global.t('aiMenuTitle', userId, groupId) || '𝑴𝑬𝑵𝑼 𝑰𝑨'
   const versionText = global.t('versionLabel', userId, groupId) || '𝑽𝑬𝑹𝑺𝑰𝑶𝑵𝑬'
-  const collabText = global.t('collabLabel', userId, groupId) || '𝐂𝐎𝐋𝐋𝐀𝐁: 𝐎𝐍𝐄 𝐏𝐈𝐄𝐂𝐄'
+  const collabText = global.t('collabLabel', userId, groupId) || '𝐂𝐎𝐋𝐋𝐀𝐁: 爪乇ᗪ卂ㄥ|丂 乇 爪ㄖ尺丂'
   const supportText = global.t('supportLabel', userId, groupId) || '𝐒𝐔𝐏𝐏𝐎𝐑𝐓𝐎'
 
   const commandList = `
@@ -60,18 +60,16 @@ function generateMenuText(prefix, botName, userId, groupId) {
   `.trim()
 
   return `
-⋆ ︵︵ ★ ${menuTitle} ★ ︵︵ ⋆
+✧･ﾟ: *✧･ﾟ:* ${menuTitle} *:･ﾟ✧*:･ﾟ✧
 
-*${global.t('generalCommands', userId, groupId) || '𝑪𝑶𝑴𝑨𝑵𝑫𝑰 𝑮𝑬𝑵𝑬𝑹𝑨𝑳𝑰'}*
+📜 *${global.t('generalCommands', userId, groupId) || 'COMANDI GENERALI'}*
 
-꒷꒦ ✦ ୧・︶ : ︶ ꒷꒦ ‧₊ ୧
-${commandList.split('\n').map(line => `୧ ${line.trim()}`).join('\n')}
-꒷꒦ ✦ ୧・︶ : ︶ ꒷꒦ ‧₊ ୧
+${commandList.split('\n').map(line => `➤ ${line.trim()}`).join('\n')}
 
-╰♡꒷ ๑ ⋆˚₊⋆───ʚ˚ɞ───⋆˚₊⋆ ๑ ⪩
-  ୧・*${versionText}:* ${vs}
-  ୧・𝐂𝐎𝐋𝐋𝐀𝐁: ${collabText}
-  ୧・*${supportText}:* (.supporto)
-╰♡꒷ ๑ ⋆˚₊⋆───ʚ˚ɞ───⋆˚₊⋆ ๑ ⪩
+───────────────
+⚙️ ${versionText}: ${vs}
+🤝 COLLAB: ${collabText}
+🆘 ${supportText}: (.supporto)
+───────────────
 `.trim()
 }
