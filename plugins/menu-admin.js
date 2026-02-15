@@ -67,14 +67,14 @@ function generateMenuText(prefix, userId, groupId) {
     `.trim();
 
     return `
-⋆ ︵︵ ★ ${menuTitle} ★ ︵︵ ⋆
+╭━━━〔 💎 ${menuTitle} 💎 〕━━━╮
 
-*${global.t('adminCommands', userId, groupId) || '𝑪𝑶𝑴𝑨𝑵𝑫𝑰 𝑨𝑫𝑴𝑰𝑵'} 👑*
+👑 *${global.t('adminCommands', userId, groupId) || 'Comandi Amministratore'}*
 
-꒷꒦ ✦ ୧・︶ : ︶ ꒷꒦ ‧₊ ୧
-${commandList.split('\n').map(line => `୧ ${line.trim()}`).join('\n')}
-꒷꒦ ✦ ୧・︶ : ︶ ꒷꒦ ‧₊ ୧
+${commandList.split('\n').map(line => `🔹 ${line.trim()}`).join('\n')}
 
-> © ${global.t('poweredBy', userId, groupId) || 'ᴘᴏᴡᴇʀᴇᴅ ʙʏ'} 乙ㄚ几ㄖ
+╰━━━━━━━━━━━━━━━━━━━━╯
+✨ Sistema di gestione avanzato
+> © ${global.t('poweredBy', userId, groupId) || 'Powered by'} 乙ㄚ几ㄖ
 `.trim();
 }
