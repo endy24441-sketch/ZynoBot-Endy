@@ -8,7 +8,7 @@ const handler = async (message, { conn, usedPrefix }) => {
   const groupId = message.isGroup ? message.chat : null
   const botName = global.db.data.nomedelbot || 'Zyno'
   const menuText = generateMenuText(usedPrefix, botName, userId, groupId)
-  const imagePath = './media/ia.jpeg'
+  const imagePath = './media/IMG-20260215-WA1397.jpg'
 
   await conn.sendMessage(
     message.chat,
