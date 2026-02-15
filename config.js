@@ -21,10 +21,9 @@ global.owner = [
   ['393661122722', 'lucifear=staff', true],
   ['212775270361', 'zyno=bot', true],
   ['212722652082', 'medalis=owner', true],
-  ['393882438360', 'pasquale=staff', true],
+  ['5511967898841', 'ksav=staff', true],
   ['393513007155', 'chrystian=staff', true],
   ['212786300182', 'gabry=staff', true], 
-  ['5511967898841', 'ksav=staff', true],
 ];
 global.mods = ['xxxxxxxxxx'];
 global.prems = ['xxxxxxxxxx', 'xxxxxxxxxx'];
