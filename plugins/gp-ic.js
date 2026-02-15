@@ -135,7 +135,7 @@ async function startGame(m, conn, chat, artist = null) {
 ┃ 『 👤 』 \`Artista:\` *${track.artist}* 
 ┃
 ┃ \`Scrivi il titolo della canzone!\`
-┃ \`vare ✧ bot\`
+┃ \`Endy ✧ bot\`
 ╰⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒`
         let gameMessage = await conn.reply(m.chat, formatGameMessage(30), m)
         let game = {
@@ -250,7 +250,7 @@ handler.before = async (m, { conn }) => {
 │ ➤  \`${reward}\` *UnityCoins*
 │ ➤  \`${exp}\` *exp*
 ┃
-┃ 💰 *Saldo attuale:* ${global.db.data.users[m.sender].limit} UnityCoins
+┃ 💰 *Saldo attuale:* ${global.db.data.users[m.sender].limit} ZynoCoins
 ╰⭒─ׄ─ׅ─ׄ─⭒`,
             buttons: [
                 {
