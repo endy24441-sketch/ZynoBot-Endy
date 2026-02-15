@@ -60,7 +60,7 @@ function generateMenuText(prefix, botName, userId, groupId) {
   `.trim()
 
   return `
-✧･ﾟ: *✧･ﾟ:* ${menuTitle} *:･ﾟ✧*:･ﾟ✧
+✧･ﾟ: *✧･ﾟ:* MENU DEL BOT AI *:･ﾟ✧*:･ﾟ✧
 
 📜 *${global.t('generalCommands', userId, groupId) || 'COMANDI GENERALI'}*
 
@@ -68,7 +68,7 @@ ${commandList.split('\n').map(line => `➤ ${line.trim()}`).join('\n')}
 
 ───────────────
 ⚙️ ${versionText}: ${vs}
-🤝 COLLAB: ${collabText}
+🤝 COLLAB: 爪乇ᗪ卂ㄥ|丂 乇 爪ㄖ尺丂
 🆘 ${supportText}: (.supporto)
 ───────────────
 `.trim()
