@@ -1,4 +1,4 @@
-//comando creatore da sam github.com/realvare
+//comando creatore da endy github.com/realvare
 import axios from 'axios'
 import fs from 'fs'
 import path from 'path'
