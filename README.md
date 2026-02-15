@@ -22,7 +22,7 @@ zyno è un bot per WhatsApp, progettato per semplificare la gestione delle chat 
   <summary><b>Clicca qui per vedere i passaggi</b></summary>
 
 👉🏻 [Scarica Termux (MediaFire)](https://www.mediafire.com/file/0npdmv51pnttps0/com.termux_0.119.1-119_minAPI21(arm64-v8a,armeabi-v7a,x86,x86_64)(nodpi)_apkmirror.com.apk/)  
-👉🏻 [Scarica zip bot](https://github.com/endy-gif9988/Zyno/archive/refs/heads/main.zip)  
+👉🏻 [Scarica zip bot](https://github.com/endy24441-sketch/ZynoBot-Endy/Zyno/archive/refs/heads/main.zip)  
 👉🏻 [Scarica MT Manager](https://mt-manager.en.softonic.com/android)
 
 </details>
@@ -40,8 +40,8 @@ termux-setup-storage && \
 pkg update && pkg upgrade -y && \
 pkg install git nodejs ffmpeg imagemagick yarn -y && \
 cd ~ && \
-git clone https://github.com/endy-gif9988/Zyno.git && \
-cd Zyno && \
+git clone https://github.com/endy24441-sketch/ZynoBot-Endy.git && \
+cd ZynoBot-Endy && \
 yarn install && \
 yarn start
 ```
@@ -60,8 +60,8 @@ pkg install x11-repo tur-repo -y && \
 pkg install git nodejs ffmpeg imagemagick yarn -y && \
 cd ~ && \
 cd ~/storage/downloads && \
-unzip Zyno-main.zip && \
-cd Zyno-main && \
+unzip ZynoBot-Endy-main.zip && \
+cd ZynoBot-Endy-main && \
 yarn install && \
 yarn start
 ```
@@ -75,7 +75,7 @@ yarn start
 <summary><b>Clicca qui per vedere i passaggi</b></summary>
 
 ```bash
-cd Zyno
+cd ZynoBot-Endy
 rm -rf Sessioni
 npm start
 ```
