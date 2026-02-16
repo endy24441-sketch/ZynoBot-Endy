@@ -12,7 +12,7 @@ const handler = async (message, { conn, usedPrefix, command }) => {
   const nomeDelBot = conn.user?.name || global.db?.data?.nomedelbot || 'Zyno'
 
   const menuText = generateMenuText(usedPrefix, userId, groupId)
-  const imagePath = path.join(__dirname, '../media/gruppo.jpeg')
+  const imagePath = path.join(__dirname, '../media/IMG-20260216-WA0134.jpg')
 
   await conn.sendMessage(
     message.chat,
