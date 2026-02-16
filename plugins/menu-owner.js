@@ -1,4 +1,4 @@
-import { performance } from 'perf_hooks'
+Z1import { performance } from 'perf_hooks'
 import fetch from 'node-fetch'
 import path from 'path'
 import { fileURLToPath } from 'url'
@@ -42,7 +42,7 @@ export default handler
 
 function generateMenuText(prefix, userId, groupId) {
   const vs = global.vs || '8.0'
-  const collab = global.collab || 'ChatUnity x 333'
+  const collab = global.collab || 'Zyno x 666'
 
   const menuTitle = global.t('ownerMenuTitle', userId, groupId) || '𝑴𝑬𝑵𝑼 𝑶𝑾𝑵𝑬𝑹'
   const versionText = global.t('versionLabel', userId, groupId) || '𝑽𝑬𝑹𝑺𝑰𝑶𝑵𝑬'
