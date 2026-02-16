@@ -40,8 +40,8 @@ handler.command = /^(gruppo|menugruppo)$/i
 export default handler
 
 function generateMenuText(prefix, userId, groupId) {
-  const vs = global.vs || '8.0'
-  const collab = global.collab || 'ChatUnity x 333'
+  const vs = global.vs || '1.1'
+  const collab = global.collab || 'Zyno X 666'
   const menuTitle = global.t('groupMenuTitle', userId, groupId)
 
   const createSection = (title, commands) => {
