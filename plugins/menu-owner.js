@@ -13,7 +13,7 @@ const handler = async (message, { conn, usedPrefix, command }) => {
   const groupId = message.isGroup ? message.chat : null
 
   const menuText = generateMenuText(usedPrefix, userId, groupId)
-  const imagePath = path.join(__dirname, '../media/owner.jpeg')
+  const imagePath = path.join(__dirname, '../media/IMG-20260216-WA0215.jpg')
 
   await conn.sendMessage(
     message.chat,
