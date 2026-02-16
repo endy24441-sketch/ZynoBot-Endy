@@ -50,7 +50,8 @@ function generateMenuText(prefix, userId, groupId) {
       .split('\n')
       .map(c => `│ ${c.trim()}`)
       .join('\n')
-    return `╭★─ ${title} ─★╮\n${commandLines}\n╰★────────────★╯`
+    
+      return `╭★─ ${title} ─★╮\n${commandLines}\n╰★────────────★╯`
   }
 
   const sections = [
@@ -179,6 +180,9 @@ function generateMenuText(prefix, userId, groupId) {
       `
 🍺 *.alcolizzato*
 🌿 *.drogato*
+    ),
+    createSection(
+    
     `
     )
   ]
