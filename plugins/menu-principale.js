@@ -13,7 +13,7 @@ const handler = async (message, { conn, usedPrefix, command }) => {
   const groupId = message.isGroup ? message.chat : null
 
   const userCount = Object.keys(global.db.data.users).length
-  const botName = global.db.data.nomedelbot || 'ChatUnity'
+  const botName = global.db.data.nomedelbot || 'Zyno'
 
   const menuText = generateMenuText(usedPrefix, botName, userCount, userId, groupId)
 
