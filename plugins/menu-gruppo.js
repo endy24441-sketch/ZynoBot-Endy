@@ -9,7 +9,7 @@ const __dirname = path.dirname(__filename)
 const handler = async (message, { conn, usedPrefix, command }) => {
   const userId = message.sender
   const groupId = message.isGroup ? message.chat : null
-  const nomeDelBot = conn.user?.name || global.db?.data?.nomedelbot || 'ChatUnity'
+  const nomeDelBot = conn.user?.name || global.db?.data?.nomedelbot || 'Zyno'
 
   const menuText = generateMenuText(usedPrefix, userId, groupId)
   const imagePath = path.join(__dirname, '../media/gruppo.jpeg')
