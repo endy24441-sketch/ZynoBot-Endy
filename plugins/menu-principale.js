@@ -54,7 +54,7 @@ export default handler
 
 function generateMenuText(prefix, botName, userCount, userId, groupId) {
   const vs = global.vs || '8.0'
-  const collab = global.collab || 'ChatUnity x 333'
+  const collab = global.collab || 'Zyno x 666'
 
   const menuTitle = global.t('mainMenuTitle', userId, groupId) || '💬 𝑴𝑬𝑵𝑼 𝑫𝑬𝑳 𝑩𝑶𝑻 💬'
   const staffText = global.t('staffCommand', userId, groupId) || 'staff'
