@@ -21,7 +21,7 @@ let handler = async (m, { usedPrefix, command, text }) => {
     const emojiSegno = getZodiacEmoji(segnoZodiacale)
 
     // Define the textbot variable
-    const textbot = '> ChatUnity Bot';
+    const textbot = '> Zyno Bot';
 
     const testo = `
 ✨ *PROFILO ZODIACALE* ✨
@@ -49,18 +49,18 @@ function getZodiac(mese, giorno) {
 
 function getZodiacEmoji(segno) {
     const emojiMap = {
-        'Capricorno': '🐐',
-        'Acquario': '🏺',
-        'Pesci': '🐠',
-        'Ariete': '🐏',
-        'Toro': '🐂',
-        'Gemelli': '👯',
-        'Cancro': '🦀',
-        'Leone': '🦁',
-        'Vergine': '🌾',
-        'Bilancia': '⚖️',
-        'Scorpione': '🦂',
-        'Sagittario': '🏹'
+        'Capricorno': '♑',
+        'Acquario': '♒',
+        'Pesci': '♓',
+        'Ariete': '♈',
+        'Toro': '♉',
+        'Gemelli': '♊',
+        'Cancro': '♋',
+        'Leone': '♌',
+        'Vergine': '♍',
+        'Bilancia': '♎',
+        'Scorpione': '♏',
+        'Sagittario': '♐'
     }
     return emojiMap[segno] || '✨'
 }
