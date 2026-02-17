@@ -70,7 +70,7 @@ function getDescrizioneSegno(segno) {
         '♑ Capricorno 🏔️ – Ambizioso, disciplinato e responsabile. Lavora sodo per raggiungere i suoi obiettivi.',
         '♒ Acquario 🌌 – Originale, indipendente e visionario. Ama le idee innovative e fuori dagli schemi.',
         '♓ Pesci 🎨 – Sognatore, empatico e creativo. Vive tra emozioni profonde e grande immaginazione. 🌙',
-        'Ariete': 'Gli Ariete sono coraggiosi e impulsivi, caricano a testa bassa come un ariete in battaglia! ⚔️',
+        '♈ Ariete 🔥 – Energico, impulsivo e coraggioso. Ama le sfide e non si tira mai indietro davanti a una competizione.',
         'Toro': 'I Toro sono pazienti e testardi, fermi come una roccia quando decidono qualcosa. 🪨',
         'Gemelli': 'I Gemelli sono versatili e comunicativi, cambiano umore come il vento. 🌬️',
         'Cancro': 'I Cancro sono sensibili e protettivi, con un guscio duro ma un cuore tenero. 🏠',
