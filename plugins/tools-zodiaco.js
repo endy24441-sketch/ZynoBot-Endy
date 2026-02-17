@@ -68,7 +68,7 @@ function getZodiacEmoji(segno) {
 function getDescrizioneSegno(segno) {
     const descrizioni = {
         '♑ Capricorno 🏔️ – Ambizioso, disciplinato e responsabile. Lavora sodo per raggiungere i suoi obiettivi.',
-        'Acquario': 'Gli Acquario sono innovatori e anticonformisti, sempre un passo avanti come l\'acqua che scorre. 💧',
+        '♒ Acquario 🌌 – Originale, indipendente e visionario. Ama le idee innovative e fuori dagli schemi.',
         'Pesci': 'I Pesci sono empatici e sognatori, nuotano tra realtà e fantasia come pesci nell\'oceano. 🌊',
         'Ariete': 'Gli Ariete sono coraggiosi e impulsivi, caricano a testa bassa come un ariete in battaglia! ⚔️',
         'Toro': 'I Toro sono pazienti e testardi, fermi come una roccia quando decidono qualcosa. 🪨',
