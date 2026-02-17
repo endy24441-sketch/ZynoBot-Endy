@@ -69,7 +69,7 @@ function getDescrizioneSegno(segno) {
     const descrizioni = {
         '♑ Capricorno 🏔️ – Ambizioso, disciplinato e responsabile. Lavora sodo per raggiungere i suoi obiettivi.',
         '♒ Acquario 🌌 – Originale, indipendente e visionario. Ama le idee innovative e fuori dagli schemi.',
-        'Pesci': 'I Pesci sono empatici e sognatori, nuotano tra realtà e fantasia come pesci nell\'oceano. 🌊',
+        '♓ Pesci 🎨 – Sognatore, empatico e creativo. Vive tra emozioni profonde e grande immaginazione. 🌙',
         'Ariete': 'Gli Ariete sono coraggiosi e impulsivi, caricano a testa bassa come un ariete in battaglia! ⚔️',
         'Toro': 'I Toro sono pazienti e testardi, fermi come una roccia quando decidono qualcosa. 🪨',
         'Gemelli': 'I Gemelli sono versatili e comunicativi, cambiano umore come il vento. 🌬️',
