@@ -74,7 +74,7 @@ function getDescrizioneSegno(segno) {
         '♉ Toro 🌿 – Affidabile, paziente e amante del comfort. Cerca stabilità e apprezza le cose belle della vita.',
         '♊ Gemelli 💬 – Curioso, comunicativo e versatile. Ha mille interessi e sa adattarsi a ogni situazione.',
         '♋ Cancro 🌊 – Sensibile, protettivo e intuitivo. Tiene molto alla famiglia e ai legami profondi.',
-        'Leone': 'I Leone sono orgogliosi e generosi, re della giungla che ama essere al centro dell\'attenzione. 👑',
+        '♌ Leone 🦁 – Carismatico, orgoglioso e generoso. Ama stare al centro dell’attenzione e brillare.',
         'Vergine': 'Le Vergine sono precise e analitiche, perfezioniste che notano ogni dettaglio. 🔍',
         'Bilancia': 'Le Bilancia sono diplomatiche e amanti dell\'armonia, sempre in cerca di equilibrio. ☯️',
         'Scorpione': 'Gli Scorpione sono intensi e misteriosi, con un fascino magnetico e un pungiglione pronto. 🦂',
