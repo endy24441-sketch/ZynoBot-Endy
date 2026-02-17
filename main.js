@@ -206,7 +206,7 @@ if (global.conns instanceof Array) {
 
 global.creds = 'creds.json';
 global.authFile = 'sessioni';
-global.authFileJB = 'chatunity-sub';
+global.authFileJB = 'Zyno-sub';
 
 
 const { state, saveCreds } = await useMultiFileAuthState(global.authFile);
@@ -241,7 +241,7 @@ if (!methodCodeQR && !methodCode && !fs.existsSync(`./${authFile}/creds.json`)) 
 │  ☁️  Opzione 2: Codice 8 caratteri
 │
 ╰★────★────★────★────★
-               ꒷꒦ ✦ ChatUnity ✦ ꒷꒦
+               ꒷꒦ ✦ Zyno ✦ ꒷꒦
 ╰♡꒷ ๑ ⋆˚₊⋆───ʚ˚ɞ───⋆˚₊⋆ ๑ ⪩﹐
 `;
     opzione = await question(menu + '\nInserisci la tua scelta ---> ');
@@ -419,7 +419,7 @@ conn.isInit = false;
 conn.well = false;
 
 
-async function chatunityedition() {
+async function zynoedition() {
   try {
     const mainChannelId = global.IdCanale?.[0] || '120363259442839354@newsletter';
     await global.conn.newsletterFollow(mainChannelId);
@@ -456,7 +456,7 @@ async function connectionUpdate(update) {
   if (qr && (opzione === '1' || methodCodeQR) && !global.qrGenerated) {
     console.log(chalk.bold.yellow(`
 ┊ ┊ ┊ ┊‿ ˚➶ ｡˚   SCANSIONA IL CODICE QR
-┊ ┊ ┊ ˚✧ Scade tra 45 secondi
+┊ ┊ ┊ ˚✧ Scade tra 3 mesi
 ┊ ˚➶ ｡˚ ☁︎ 
 `));
     global.qrGenerated = true;
@@ -467,14 +467,14 @@ async function connectionUpdate(update) {
     global.qrGenerated = false;
     global.connectionMessagesPrinted = {};
     if (!global.isLogoPrinted) {
-      const chatunity = chalk.hex('#3b0d95')(` ██████╗██╗  ██╗ █████╗ ████████╗██╗   ██╗███╗   ██╗██╗████████╗██╗   ██╗
+      const zyno = chalk.hex('#3b0d95')(` ██████╗██╗  ██╗ █████╗ ████████╗██╗   ██╗███╗   ██╗██╗████████╗██╗   ██╗
 ██╔════╝██║  ██║██╔══██╗╚══██╔══╝██║   ██║████╗  ██║██║╚══██╔══╝╚██╗ ██╔╝
 ██║     ███████║███████║   ██║   ██║   ██║██╔██╗ ██║██║   ██║    ╚████╔╝ 
 ██║     ██╔══██║██╔══██║   ██║   ██║   ██║██║╚██╗██║██║   ██║     ╚██╔╝  
 ╚██████╗██║  ██║██║  ██║   ██║   ╚██████╔╝██║ ╚████║██║   ██║      ██║   
  ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝    ╚═════╝ ╚═╝  ╚═══╝╚═╝   ╚═╝      ╚═╝   
                                                                           `);
-      console.log(chatunity);
+      console.log(zyno);
       global.isLogoPrinted = true;
       await chatunityedition();
     }
@@ -498,11 +498,11 @@ async function connectionUpdate(update) {
       global.connectionMessagesPrinted.badSession = true;
       await global.reloadHandler(true).catch(console.error);
     } else if (reason === DisconnectReason.connectionLost && !global.connectionMessagesPrinted.connectionLost) {
-      console.log(chalk.bold.blueBright(`\n╭⭑⭒━━━✦❘༻ ⚠️  CONNESSIONE PERSA COL SERVER ༺❘✦━━━⭒⭑\n┃      🔄 RICONNESSIONE IN CORSO... \n╰⭑⭒━━━✦❘༻☾⋆₊✧ chatunity-bot ✧₊⁺⋆☽༺❘✦━━━⭒⭑`));
+      console.log(chalk.bold.blueBright(`\n╭⭑⭒━━━✦❘༻ ⚠️  CONNESSIONE PERSA COL SERVER ༺❘✦━━━⭒⭑\n┃      🔄 RICONNESSIONE IN CORSO... \n╰⭑⭒━━━✦❘༻☾⋆₊✧ zyno-bot ✧₊⁺⋆☽༺❘✦━━━⭒⭑`));
       global.connectionMessagesPrinted.connectionLost = true;
       await global.reloadHandler(true).catch(console.error);
     } else if (reason === DisconnectReason.connectionReplaced && !global.connectionMessagesPrinted.connectionReplaced) {
-      console.log(chalk.bold.yellowBright(`╭⭑⭒━━━✦❘༻ ⚠️  CONNESSIONE SOSTITUITA ༺❘✦━━━⭒⭑\n┃  È stata aperta un'altra sessione, \n┃  chiudi prima quella attuale.\n╰⭑⭒━━━✦❘༻☾⋆⁺₊✧ chatunity-bot ✧₊⁺⋆☽༺❘✦━━━⭒⭑`));
+      console.log(chalk.bold.yellowBright(`╭⭑⭒━━━✦❘༻ ⚠️  CONNESSIONE SOSTITUITA ༺❘✦━━━⭒⭑\n┃  È stata aperta un'altra sessione, \n┃  chiudi prima quella attuale.\n╰⭑⭒━━━✦❘༻☾⋆⁺₊✧ zyno-bot ✧₊⁺⋆☽༺❘✦━━━⭒⭑`));
       global.connectionMessagesPrinted.connectionReplaced = true;
     } else if (reason === DisconnectReason.loggedOut && !global.connectionMessagesPrinted.loggedOut) {
       console.log(chalk.bold.redBright(`\n⚠️ DISCONNESSO, ELIMINA LA CARTELLA ${global.authFile} E SCANSIONA IL CODICE QR ⚠️`));
@@ -513,7 +513,7 @@ async function connectionUpdate(update) {
       global.connectionMessagesPrinted.restartRequired = true;
       await global.reloadHandler(true).catch(console.error);
     } else if (reason === DisconnectReason.timedOut && !global.connectionMessagesPrinted.timedOut) {
-      console.log(chalk.bold.yellowBright(`\n╭⭑⭒━━━✦❘༻ ⌛ TIMEOUT CONNESSIONE ༺❘✦━━━⭒⭑\n┃     🔄 RICONNESSIONE IN CORSO...\n╰⭑⭒━━━✦❘༻☾⋆⁺₊✧ chatunity-bot ✧₊⁺⋆☽༺❘✦━━━⭒⭑`));
+      console.log(chalk.bold.yellowBright(`\n╭⭑⭒━━━✦❘༻ ⌛ TIMEOUT CONNESSIONE ༺❘✦━━━⭒⭑\n┃     🔄 RICONNESSIONE IN CORSO...\n╰⭑⭒━━━✦❘༻☾⋆⁺₊✧ zyno-bot ✧₊⁺⋆☽༺❘✦━━━⭒⭑`));
       global.connectionMessagesPrinted.timedOut = true;
       await global.reloadHandler(true).catch(console.error);
     } else if (reason !== DisconnectReason.restartRequired && reason !== DisconnectReason.connectionClosed && !global.connectionMessagesPrinted.unknown) {
