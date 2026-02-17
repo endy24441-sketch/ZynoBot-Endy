@@ -71,7 +71,7 @@ function getDescrizioneSegno(segno) {
         '♒ Acquario 🌌 – Originale, indipendente e visionario. Ama le idee innovative e fuori dagli schemi.',
         '♓ Pesci 🎨 – Sognatore, empatico e creativo. Vive tra emozioni profonde e grande immaginazione. 🌙',
         '♈ Ariete 🔥 – Energico, impulsivo e coraggioso. Ama le sfide e non si tira mai indietro davanti a una competizione.',
-        'Toro': 'I Toro sono pazienti e testardi, fermi come una roccia quando decidono qualcosa. 🪨',
+        '♉ Toro 🌿 – Affidabile, paziente e amante del comfort. Cerca stabilità e apprezza le cose belle della vita.',
         '♊ Gemelli 💬 – Curioso, comunicativo e versatile. Ha mille interessi e sa adattarsi a ogni situazione.',
         'Cancro': 'I Cancro sono sensibili e protettivi, con un guscio duro ma un cuore tenero. 🏠',
         'Leone': 'I Leone sono orgogliosi e generosi, re della giungla che ama essere al centro dell\'attenzione. 👑',
